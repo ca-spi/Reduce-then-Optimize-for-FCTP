@@ -1,0 +1,13 @@
+*.pyc
+*.xlsx
+*.zip
+*.jpg
+*.png
+*.pdf
+*.pkl
+*.log
+
+gurobi.lic
+
+__pycache__/
+/.vscode

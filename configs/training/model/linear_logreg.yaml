@@ -1,0 +1,4 @@
+model: "linear_logreg"
+features: "advanced_edge_features"
+prediction_task: "binary_classification"
+normalization: null

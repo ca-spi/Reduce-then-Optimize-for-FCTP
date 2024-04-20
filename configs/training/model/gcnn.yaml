@@ -1,0 +1,7 @@
+model: "gcnn"
+features: "bipartite_raw"
+prediction_task: "binary_classification"
+normalization: "standard"
+hidden_layer_dim: 20
+num_conv_layers: 10
+num_dense_layers: 2

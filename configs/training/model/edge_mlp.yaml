@@ -1,0 +1,6 @@
+model: "edge_mlp"
+features: "combined_raw_edge_features"
+prediction_task: "binary_classification"
+normalization: "standard"
+hidden_layer_dim: 20
+num_dense_layers: 5

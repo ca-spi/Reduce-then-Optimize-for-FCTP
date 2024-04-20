@@ -1,0 +1,24 @@
+defaults:
+  - model: linear_logreg
+
+data_path: "data/samples/agarwal-aneja_15_15_B20_Theta0.2_BF1.0"
+num_samples: null
+var_size_samples: False
+train_batch_size: 32
+val_batch_size: 128
+max_num_epochs: 500
+learning_rate: 0.001
+momentum: 0.9
+weight_decay: 0
+lr_decay: True
+patience: 5
+lr_decay_factor: 0.1
+early_stopping: 15
+opt_threshold: 0.00001
+monitoring_kpi: "validation_loss"
+out_dir: "models/sol_edge_predictor"
+log_dir: "logs"
+use_gpu: False
+seed: 0
+cross_validate: False
+test_split: 0.2

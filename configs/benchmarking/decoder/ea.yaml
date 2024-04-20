@@ -1,0 +1,5 @@
+name: "ea"
+pop_size: 100
+max_unique_sols: 100000
+patience: 100000
+mutation_operator: "eicr"

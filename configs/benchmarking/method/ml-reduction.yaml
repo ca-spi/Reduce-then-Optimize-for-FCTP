@@ -1,0 +1,6 @@
+defaults:
+  - base_reduction_method
+  - base_ml_method
+
+name: "ml-reduction"
+threshold_type: "size"

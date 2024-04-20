@@ -1,0 +1,9 @@
+defaults:
+  - method: exact
+  - decoder: null
+
+verbose: false
+summarize: false
+num_threads: 1
+seed: 0
+log_dir: "logs"
