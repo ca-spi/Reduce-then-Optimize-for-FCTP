@@ -1,6 +1,6 @@
 # Reduce-then-Optimize for the Fixed-Charge Transportation Problem (FCTP)
 
-This repository contains the code to reproduce the results presented in the paper "Reduce-then-Optimize for the Fixed-Charge Transportation Problem" by Spieckermann, Minner, and Schiffer (2023).
+This repository contains the code to reproduce the results presented in the paper "Reduce-then-Optimize for the Fixed-Charge Transportation Problem" by Spieckermann, Minner, and Schiffer (2024).
 
 ## Docker Setup
 
