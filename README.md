@@ -82,7 +82,7 @@ Use bash scripts under `bash_scripts/03_benchmarking` to reproduce paper experim
 
 Plot optimality gap against runtime for reduce-then-optimize pipeline (GNN+GRB):
 ```bash
-docker run --rm -v $PWD:/code -w /code -e PYTHONPATH=/code fctp-reduce-then-optimize:latest python scripts/04_analyses/plot_runtime_vs_optgap.py
+docker run --rm -v $PWD:/code -w /code -e PYTHONPATH=/code fctp-reduce-then-optimize:latest python scripts/04_analyses/runtime_vs_optgap_plots.py
 ```
 
 Print benchmarking performance table to compare different FCTP types (GNN+GRB):
